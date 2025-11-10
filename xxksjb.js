@@ -2110,7 +2110,7 @@ class VersionChecker {
 // 8. 程序入口：初始化、依赖检查、任务启动
 async function startKuaishouTask() {
   // 打印启动标识
-  console.log("\n================== 快手极速版启动11.11 ==================\n");
+  console.log("\n================== 快手极速版启动测试版本 ==================\n");
 
   try {
     // 1. 检查必需依赖
@@ -2205,3 +2205,4 @@ module.exports = {
   makeRequest: RequestClient.makeRequest,
   parseProxyConfig: Toolkit.parseProxyConfig
 };
+
